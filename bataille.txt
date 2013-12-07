@@ -1,0 +1,33 @@
+
+
+
+un jeu de bataille,
+
+avec un un jeu de 52 cartes
+
+deux joueurs
+
+pour commencer la partie chaque joueur tire au hasard une carte du paquet jusqu'a epuisment du paquet.
+
+a chaque tour de jeu,
+chaque joueur tire une carte de son propre paquet  (prendre la premiere)
+celui qui a la carte la plus forte ajoute les deux cartes a la fin (dessous de ) son paquet.
+en cas d'égalitée : rien ne se passe. (pour la v1)
+
+ordre des cartes :  2, 3, 4, 5, 6, 7, 8, 9, 10, V, Q, K, As
+
+
+--
+
+
+Joueur (paquet)
+
+JeuDeBataille
+- tour de jeu
+
+Carte
+
+Pioche (paquet de 52 cartes : utilisée seulement en début de partie)
+
+
+
