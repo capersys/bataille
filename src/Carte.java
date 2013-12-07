@@ -1,7 +1,21 @@
 public class Carte {
 
-    // represente une carte
+    private String titre;
+    private int puissance;
 
-    // compare a une autre carte
+
+    public Carte(String titre, int puissance) {
+        this.titre = titre;
+        this.puissance = puissance;
+    }
+
+    public boolean estPlusForteQue(Carte unAutreCarte) {
+        return puissance > unAutreCarte.puissance;
+    }
+
+    public String getTitre() {
+        return titre;
+    }
+
 
 }
